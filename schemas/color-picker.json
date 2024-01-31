@@ -4,11 +4,13 @@
   "title":"color input use colorpicker",
   "format":"grid",
   "properties":{
-    "headline": {
-      "title": "headline",
+    "name": {
       "type": "string",
-      "options": {
-        "grid_columns": 8
+      "description": "First and Last name",
+      "minLength": 4,
+      "default": "Jeremy Dorn",
+      "options":{
+        "grid_columns": 4
       }
     },
     "rgb":{
