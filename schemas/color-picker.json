@@ -13,7 +13,7 @@
         "colorpicker":{
           "editorFormat":"rgb"
         },
-        "grid_columns": 4
+        "grid_columns": 12
       }
     },
     "rgba":{
