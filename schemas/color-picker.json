@@ -10,7 +10,7 @@
       "minLength": 4,
       "default": "Jeremy Dorn",
       "options":{
-        "grid_columns": 4
+        "grid_columns": 10
       }
     },
     "rgb":{
@@ -22,7 +22,7 @@
         "colorpicker":{
           "editorFormat":"rgb"
         },
-        "grid_columns": 8
+        "grid_columns": 2
       }
     },
     "rgba":{
