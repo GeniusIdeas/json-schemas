@@ -15,40 +15,6 @@
         "grid_columns": 10
       }
     },
-    "radiotest": {
-      "title": "radio buttons editor examples",
-      "type": "object",
-      "format": "grid",
-      "properties": {
-        "radio": {
-          "type": "string",
-          "format": "radio",
-          "title": "Radio Buttons",
-          "description": "Active Radio Buttons",
-          "enum": ["Home", "Work", "Cell"]
-        },
-        "radio1": {
-          "type": "string",
-          "format": "radio",
-          "title": "Radio Buttons",
-          "readonly": true,
-          "description": "Disabled/Readonly Radio Buttons",
-          "enum": ["Home", "Work"]
-        }
-      }
-    },
-    "rgb":{
-      "title":"use rgb format",
-      "type":"string",
-      "format":"color",
-      "default":"rgb(0,0,0)",
-      "options":{
-        "colorpicker":{
-          "editorFormat":"rgb"
-        },
-        "grid_columns": 2
-      }
-    },
     "rgba":{
       "title":"use rgba format",
       "type":"string",
@@ -62,88 +28,17 @@
         "grid_columns": 4
       }
     },
-    "hsl":{
-      "title":"use hsl format",
-      "type":"string",
-      "format":"color",
-      "default":"hsl(0,0,0)",
-      "options":{
-        "colorpicker":{
-          "editorFormat":"hsl"
-        },
-        "grid_columns": 4
-      }
-    },
-    "hsla":{
-      "title":"use hsla format",
-      "type":"string",
-      "format":"color",
-      "default":"hsl(0,0,0,1)",
-      "options":{
-        "colorpicker":{
-          "editorFormat":"hsl",
-          "alpha":true
-        }
-      }
-    },
-    "hex":{
-      "title":"use hex format",
-      "type":"string",
-      "format":"color",
-      "default":"#000000"
-    },
-    "hexa":{
-      "title":"use hexa format",
-      "type":"string",
-      "format":"color",
-      "default":"#000000",
-      "options":{
-        "colorpicker":{
-          "alpha":true
-        }
-      }
-    },
-    "inline":{
-      "title":"inline colorpicker",
-      "type":"string",
-      "format":"color",
-      "default":"#000000",
-      "options":{
-        "colorpicker":{
-          "popup":false
-        }
-      }
-    },
-    "top":{
-      "title":"position: top",
-      "type":"string",
-      "format":"color",
-      "default":"#000000",
-      "options":{
-        "colorpicker":{
-          "popup":"top"
-        }
-      }
-    },
-    "right":{
-      "title":"position: right",
-      "type":"string",
-      "format":"color",
-      "default":"#000000",
-      "options":{
-        "colorpicker":{
-          "popup":"right"
-        }
-      }
-    },
-    "left":{
-      "title":"position: left",
-      "type":"string",
-      "format":"color",
-      "default":"#000000",
-      "options":{
-        "colorpicker":{
-          "popup":"left"
+    "radiotest": {
+      "title": "radio buttons editor examples",
+      "type": "object",
+      "format": "grid",
+      "properties": {
+        "radio": {
+          "type": "string",
+          "format": "radio",
+          "title": "Radio Buttons",
+          "description": "Active Radio Buttons",
+          "enum": ["Home", "Work", "Cell"]
         }
       }
     }
