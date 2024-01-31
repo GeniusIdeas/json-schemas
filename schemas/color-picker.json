@@ -15,6 +15,28 @@
         "grid_columns": 10
       }
     },
+    "radiotest": {
+      "title": "radio buttons editor examples",
+      "type": "object",
+      "format": "grid",
+      "properties": {
+        "radio": {
+          "type": "string",
+          "format": "radio",
+          "title": "Radio Buttons",
+          "description": "Active Radio Buttons",
+          "enum": ["Home", "Work", "Cell"]
+        },
+        "radio1": {
+          "type": "string",
+          "format": "radio",
+          "title": "Radio Buttons",
+          "readonly": true,
+          "description": "Disabled/Readonly Radio Buttons",
+          "enum": ["Home", "Work"]
+        }
+      }
+    },
     "rgb":{
       "title":"use rgb format",
       "type":"string",
