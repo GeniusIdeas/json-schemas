@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type":"object",
+  "title":"color input use colorpicker",
+  "format":"grid",
+  "properties":{
+    "rgb":{
+      "title":"use rgb format",
+      "type":"string",
+      "format":"color",
+      "default":"rgb(0,0,0)",
+      "options":{
+        "colorpicker":{
+          "editorFormat":"rgb"
+        }
+      }
+    },
+    "rgba":{
+      "title":"use rgba format",
+      "type":"string",
+      "format":"color",
+      "default":"rgba(0,0,0,1)",
+      "options":{
+        "colorpicker":{
+          "editorFormat":"rgb",
+          "alpha":true
+        }
+      }
+    },
+    "hsl":{
+      "title":"use hsl format",
+      "type":"string",
+      "format":"color",
+      "default":"hsl(0,0,0)",
+      "options":{
+        "colorpicker":{
+          "editorFormat":"hsl"
+        }
+      }
+    },
+    "hsla":{
+      "title":"use hsla format",
+      "type":"string",
+      "format":"color",
+      "default":"hsl(0,0,0,1)",
+      "options":{
+        "colorpicker":{
+          "editorFormat":"hsl",
+          "alpha":true
+        }
+      }
+    },
+    "hex":{
+      "title":"use hex format",
+      "type":"string",
+      "format":"color",
+      "default":"#000000"
+    },
+    "hexa":{
+      "title":"use hexa format",
+      "type":"string",
+      "format":"color",
+      "default":"#000000",
+      "options":{
+        "colorpicker":{
+          "alpha":true
+        }
+      }
+    },
+    "inline":{
+      "title":"inline colorpicker",
+      "type":"string",
+      "format":"color",
+      "default":"#000000",
+      "options":{
+        "colorpicker":{
+          "popup":false
+        }
+      }
+    },
+    "top":{
+      "title":"position: top",
+      "type":"string",
+      "format":"color",
+      "default":"#000000",
+      "options":{
+        "colorpicker":{
+          "popup":"top"
+        }
+      }
+    },
+    "right":{
+      "title":"position: right",
+      "type":"string",
+      "format":"color",
+      "default":"#000000",
+      "options":{
+        "colorpicker":{
+          "popup":"right"
+        }
+      }
+    },
+    "left":{
+      "title":"position: left",
+      "type":"string",
+      "format":"color",
+      "default":"#000000",
+      "options":{
+        "colorpicker":{
+          "popup":"left"
+        }
+      }
+    }
+  }
+}
