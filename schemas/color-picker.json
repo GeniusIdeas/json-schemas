@@ -12,7 +12,8 @@
       "options":{
         "colorpicker":{
           "editorFormat":"rgb"
-        }
+        },
+        "grid_columns": 4
       }
     },
     "rgba":{
@@ -24,7 +25,8 @@
         "colorpicker":{
           "editorFormat":"rgb",
           "alpha":true
-        }
+        },
+        "grid_columns": 4
       }
     },
     "hsl":{
@@ -35,7 +37,8 @@
       "options":{
         "colorpicker":{
           "editorFormat":"hsl"
-        }
+        },
+        "grid_columns": 4
       }
     },
     "hsla":{
