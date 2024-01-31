@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "Grid Test",
+  "type": "object",
+  "format": "grid-strict",
+  "properties": {
+    "a": {
+      "title": "a",
+      "type": "string",
+      "options": {
+        "grid_columns": 4
+      }
+    },
+    "b": {
+      "title": "b",
+      "type": "string",
+      "options": {
+        "grid_columns": 4,
+        "grid_break": true
+      }
+    },
+    "c": {
+      "title": "c",
+      "type": "string",
+      "options": {
+        "grid_columns": 6
+      }
+    },
+    "d": {
+      "title": "d",
+      "type": "string",
+      "options": {
+        "grid_columns": 6
+      }
+    }
+  }
+}
