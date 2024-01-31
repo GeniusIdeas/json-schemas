@@ -3,6 +3,7 @@
   "type":"object",
   "title":"color input use colorpicker",
   "format":"grid",
+  "options": {"layout": "grid"},
   "properties":{
     "name": {
       "type": "string",
@@ -10,6 +11,7 @@
       "minLength": 4,
       "default": "Jeremy Dorn",
       "options":{
+        "layout": "grid",
         "grid_columns": 10
       }
     },
